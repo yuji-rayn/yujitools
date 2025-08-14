@@ -1,0 +1,170 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.19.4
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/root/.npmrc
+5 silly config load:file:/usr/etc/npmrc
+6 verbose title npm install bytenode
+7 verbose argv "install" "bytenode"
+8 verbose logfile logs-max:10 dir:/root/.npm/_logs/2025-08-14T02_08_22_567Z-
+9 verbose logfile /root/.npm/_logs/2025-08-14T02_08_22_567Z-debug-0.log
+10 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest bytenode@*
+15 silly packumentCache full:https://registry.npmjs.org/bytenode cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/bytenode 139ms (cache hit)
+17 silly packumentCache full:https://registry.npmjs.org/bytenode set size:115746 disposed:false
+18 silly placeDep ROOT bytenode@1.5.7 OK for: yuji-downloader@1.0.0 want: *
+19 silly reify moves {}
+20 silly audit bulk request {
+20 silly audit   '@emnapi/runtime': [ '1.4.5' ],
+20 silly audit   '@img/sharp-darwin-arm64': [ '0.33.5' ],
+20 silly audit   '@img/sharp-darwin-x64': [ '0.33.5' ],
+20 silly audit   '@img/sharp-libvips-darwin-arm64': [ '1.0.4' ],
+20 silly audit   '@img/sharp-libvips-darwin-x64': [ '1.0.4' ],
+20 silly audit   '@img/sharp-libvips-linux-arm': [ '1.0.5' ],
+20 silly audit   '@img/sharp-libvips-linux-arm64': [ '1.0.4' ],
+20 silly audit   '@img/sharp-libvips-linux-s390x': [ '1.0.4' ],
+20 silly audit   '@img/sharp-libvips-linux-x64': [ '1.0.4' ],
+20 silly audit   '@img/sharp-libvips-linuxmusl-arm64': [ '1.0.4' ],
+20 silly audit   '@img/sharp-libvips-linuxmusl-x64': [ '1.0.4' ],
+20 silly audit   '@img/sharp-linux-arm': [ '0.33.5' ],
+20 silly audit   '@img/sharp-linux-arm64': [ '0.33.5' ],
+20 silly audit   '@img/sharp-linux-s390x': [ '0.33.5' ],
+20 silly audit   '@img/sharp-linux-x64': [ '0.33.5' ],
+20 silly audit   '@img/sharp-linuxmusl-arm64': [ '0.33.5' ],
+20 silly audit   '@img/sharp-linuxmusl-x64': [ '0.33.5' ],
+20 silly audit   '@img/sharp-wasm32': [ '0.33.5' ],
+20 silly audit   '@img/sharp-win32-ia32': [ '0.33.5' ],
+20 silly audit   '@img/sharp-win32-x64': [ '0.33.5' ],
+20 silly audit   asynckit: [ '0.4.0' ],
+20 silly audit   axios: [ '1.11.0' ],
+20 silly audit   boolbase: [ '1.0.0' ],
+20 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+20 silly audit   cfonts: [ '3.3.0' ],
+20 silly audit   cheerio: [ '1.1.2' ],
+20 silly audit   'cheerio-select': [ '2.1.0' ],
+20 silly audit   color: [ '4.2.3' ],
+20 silly audit   'color-convert': [ '2.0.1' ],
+20 silly audit   'color-name': [ '1.1.4' ],
+20 silly audit   'color-string': [ '1.9.1' ],
+20 silly audit   'combined-stream': [ '1.0.8' ],
+20 silly audit   'css-select': [ '5.2.2' ],
+20 silly audit   'css-what': [ '6.2.2' ],
+20 silly audit   'define-property': [ '1.0.0' ],
+20 silly audit   'delayed-stream': [ '1.0.0' ],
+20 silly audit   'detect-libc': [ '2.0.4' ],
+20 silly audit   'dom-serializer': [ '2.0.0' ],
+20 silly audit   domelementtype: [ '2.3.0' ],
+20 silly audit   domhandler: [ '5.0.3' ],
+20 silly audit   domutils: [ '3.2.2' ],
+20 silly audit   'dunder-proto': [ '1.0.1' ],
+20 silly audit   'encoding-sniffer': [ '0.2.1' ],
+20 silly audit   entities: [ '4.5.0', '6.0.1' ],
+20 silly audit   'es-define-property': [ '1.0.1' ],
+20 silly audit   'es-errors': [ '1.3.0' ],
+20 silly audit   'es-object-atoms': [ '1.1.1' ],
+20 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+20 silly audit   'follow-redirects': [ '1.15.11' ],
+20 silly audit   'form-data': [ '4.0.4' ],
+20 silly audit   'function-bind': [ '1.1.2' ],
+20 silly audit   'get-intrinsic': [ '1.3.0' ],
+20 silly audit   'get-proto': [ '1.0.1' ],
+20 silly audit   gopd: [ '1.2.0' ],
+20 silly audit   'has-flag': [ '4.0.0' ],
+20 silly audit   'has-symbols': [ '1.1.0' ],
+20 silly audit   'has-tostringtag': [ '1.0.2' ],
+20 silly audit   hasown: [ '2.0.2' ],
+20 silly audit   htmlparser2: [ '10.0.0' ],
+20 silly audit   'iconv-lite': [ '0.6.3' ],
+20 silly audit   'is-accessor-descriptor': [ '1.0.1' ],
+20 silly audit   'is-arrayish': [ '0.3.2' ],
+20 silly audit   'is-buffer': [ '1.1.6' ],
+20 silly audit   'is-data-descriptor': [ '1.0.1' ],
+20 silly audit   'is-descriptor': [ '1.0.3' ],
+20 silly audit   'is-number': [ '3.0.0' ],
+20 silly audit   'kind-of': [ '3.2.2' ],
+20 silly audit   'math-intrinsics': [ '1.1.0' ],
+20 silly audit   'mime-db': [ '1.52.0' ],
+20 silly audit   'mime-types': [ '2.1.35' ],
+20 silly audit   'nth-check': [ '2.1.1' ],
+20 silly audit   parse5: [ '7.3.0' ],
+20 silly audit   'parse5-htmlparser2-tree-adapter': [ '7.1.0' ],
+20 silly audit   'parse5-parser-stream': [ '7.1.2' ],
+20 silly audit   'proxy-from-env': [ '1.1.0' ],
+20 silly audit   readline: [ '1.3.0' ],
+20 silly audit   'safer-buffer': [ '2.1.2' ],
+20 silly audit   semver: [ '7.7.2' ],
+20 silly audit   sharp: [ '0.33.5' ],
+20 silly audit   'simple-swizzle': [ '0.2.2' ],
+20 silly audit   'supports-color': [ '8.1.1' ],
+20 silly audit   tslib: [ '2.8.1' ],
+20 silly audit   undici: [ '7.13.0' ],
+20 silly audit   uuid: [ '9.0.1' ],
+20 silly audit   'whatwg-encoding': [ '3.1.1' ],
+20 silly audit   'whatwg-mimetype': [ '4.0.0' ],
+20 silly audit   'window-size': [ '1.1.1' ],
+20 silly audit   bytenode: [ '1.5.7' ]
+20 silly audit }
+21 verbose reify failed optional dependency /root/node_modules/@img/sharp-win32-x64
+22 silly reify mark deleted [ '/root/node_modules/@img/sharp-win32-x64' ]
+23 verbose reify failed optional dependency /root/node_modules/@img/sharp-win32-ia32
+24 silly reify mark deleted [ '/root/node_modules/@img/sharp-win32-ia32' ]
+25 verbose reify failed optional dependency /root/node_modules/@img/sharp-wasm32
+26 silly reify mark deleted [ '/root/node_modules/@img/sharp-wasm32' ]
+27 verbose reify failed optional dependency /root/node_modules/@emnapi/runtime
+28 silly reify mark deleted [ '/root/node_modules/@emnapi/runtime' ]
+29 verbose reify failed optional dependency /root/node_modules/tslib
+30 silly reify mark deleted [ '/root/node_modules/tslib' ]
+31 verbose reify failed optional dependency /root/node_modules/@img/sharp-linuxmusl-x64
+32 silly reify mark deleted [ '/root/node_modules/@img/sharp-linuxmusl-x64' ]
+33 verbose reify failed optional dependency /root/node_modules/@img/sharp-linux-x64
+34 silly reify mark deleted [ '/root/node_modules/@img/sharp-linux-x64' ]
+35 verbose reify failed optional dependency /root/node_modules/@img/sharp-linux-s390x
+36 silly reify mark deleted [ '/root/node_modules/@img/sharp-linux-s390x' ]
+37 verbose reify failed optional dependency /root/node_modules/@img/sharp-linux-arm
+38 silly reify mark deleted [ '/root/node_modules/@img/sharp-linux-arm' ]
+39 verbose reify failed optional dependency /root/node_modules/@img/sharp-libvips-linuxmusl-x64
+40 silly reify mark deleted [ '/root/node_modules/@img/sharp-libvips-linuxmusl-x64' ]
+41 verbose reify failed optional dependency /root/node_modules/@img/sharp-libvips-linux-x64
+42 silly reify mark deleted [ '/root/node_modules/@img/sharp-libvips-linux-x64' ]
+43 verbose reify failed optional dependency /root/node_modules/@img/sharp-libvips-linux-s390x
+44 silly reify mark deleted [ '/root/node_modules/@img/sharp-libvips-linux-s390x' ]
+45 verbose reify failed optional dependency /root/node_modules/@img/sharp-libvips-linux-arm
+46 silly reify mark deleted [ '/root/node_modules/@img/sharp-libvips-linux-arm' ]
+47 verbose reify failed optional dependency /root/node_modules/@img/sharp-libvips-darwin-x64
+48 silly reify mark deleted [ '/root/node_modules/@img/sharp-libvips-darwin-x64' ]
+49 verbose reify failed optional dependency /root/node_modules/@img/sharp-libvips-darwin-arm64
+50 silly reify mark deleted [ '/root/node_modules/@img/sharp-libvips-darwin-arm64' ]
+51 verbose reify failed optional dependency /root/node_modules/@img/sharp-darwin-x64
+52 silly reify mark deleted [ '/root/node_modules/@img/sharp-darwin-x64' ]
+53 verbose reify failed optional dependency /root/node_modules/@img/sharp-darwin-arm64
+54 silly reify mark deleted [ '/root/node_modules/@img/sharp-darwin-arm64' ]
+55 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 660ms
+56 silly audit report {}
+57 silly ADD node_modules/bytenode
+58 silly ADD
+59 silly ADD
+60 silly ADD
+61 silly ADD
+62 silly ADD
+63 silly ADD
+64 silly ADD
+65 silly ADD
+66 silly ADD
+67 silly ADD
+68 silly ADD
+69 silly ADD
+70 silly ADD
+71 silly ADD
+72 silly ADD
+73 silly ADD
+74 silly ADD
+75 verbose cwd /root
+76 verbose os Linux 6.2.1-PRoot-Distro
+77 verbose node v20.19.4
+78 verbose npm  v10.8.2
+79 verbose exit 0
+80 info ok
