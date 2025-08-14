@@ -1,7 +1,7 @@
 # 🎯 YUJI TOOLS
 
 ![YUJI TOOLS Banner](https://img.shields.io/badge/YUJI--TOOLS-Multi--Feature--Downloader-blue?style=for-the-badge&logo=node.js)
-![Version](https://img.shields.io/badge/Version-25.00-green?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-25.0-green?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
 **YUJI TOOLS** adalah kumpulan fitur all-in-one berbasis Node.js untuk kebutuhan harian seperti download media, cek informasi, hingga utilitas AI.  
