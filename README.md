@@ -18,19 +18,19 @@ Didesain **simple, interaktif, dan powerful**.
 | `3` | **Music Downloader** | Unduh musik dari berbagai sumber. |
 | `4` | **Spotify Downloader** | Ambil lagu & album Spotify. |
 | `5` | **YouTube Transcript** | Ambil teks transkrip dari video YouTube. |
-| `6` | **Top Up DANA** | Simulasi isi saldo DANA. |
+| `6` | **Top Up DANA** | Isi saldo DANA. |
 | `7` | **NGL Spam** | Kirim spam pesan ke NGL link. |
 | `8` | **OTP Spam** | Spam OTP ke nomor tertentu. |
 | `9` | **VirusTotal Scan** | Scan file atau URL dengan VirusTotal API. |
 | `10` | **Telegram Channel Search** | Cari channel Telegram berdasarkan keyword. |
 | `11` | **TempMail** | Dapatkan email sementara otomatis. |
-| `12` | **Verif SMS** | Gunakan nomor gratis untuk verifikasi SMS. |
+| `12` | **Verif SMS** | Ambil nomor gratis. |
 | `13` | **Top Roblox Games** | Lihat & download daftar game Roblox terpopuler. |
 | `14` | **Info Cuaca BMKG** | Cek cuaca real-time dari BMKG. |
 | `15` | **Info KRL Commuter** | Cek tarif, jadwal, & daftar stasiun KRL. |
 | `16` | **GCam Support** | Cek dukungan GCam untuk HP kamu. |
 | `17` | **AI Music Generator** | Buat lagu otomatis dengan AI. |
-| `18` | **Multi-Platform Downloader** | Download media dari Facebook, Twitter/X, TikTok, Pinterest. |
+| `18` | **Multi-Platform Downloader** | Download media dari Facebook, Twitter/X, TikTok, Pinterest, dll. |
 | `0` | **Keluar** | Menutup program. |
 
 ---
@@ -39,11 +39,15 @@ Didesain **simple, interaktif, dan powerful**.
 
 ```bash
 # Clone repository
-git clone https://github.com/username/yuji-tools.git
+git clone https://github.com/yuji-rayn/yuji-tools.git
 cd yuji-tools
 
 # Install dependencies
 npm install
 
+# Jika Gagal
+npm install --force
+npm start
+
 # Jalankan
-node tools.js
+npm start
