@@ -1,10 +1,10 @@
 {
-  "name": "yuji-downloader",
-  "version": "1.0.0",
+  "name": "yuji-tools",
+  "version": "25.0",
   "description": "Multi-platform downloader and utility tool with various features",
-  "main": "tools.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node tools.js"
+    "start": "node index.js"
   },
   "keywords": [
     "downloader",
