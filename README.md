@@ -31,6 +31,7 @@ Didesain **simple, interaktif, dan powerful**.
 | `16` | **GCam Support** | Cek dukungan GCam untuk HP kamu. |
 | `17` | **AI Music Generator** | Buat lagu otomatis dengan AI. |
 | `18` | **Multi-Platform Downloader** | Download media dari Facebook, Twitter/X, TikTok, Pinterest, dll. |
+| `19` | **Skip URL** | Untuk me-skip URL seperti tutwuri ataupun sebagainya, memudahkan pengguna mendapatkan URL asli tanpa terjebak phising melalui iklan yang terdapat didalamnya
 | `0` | **Keluar** | Menutup program. |
 
 ---
