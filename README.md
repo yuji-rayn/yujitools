@@ -2,7 +2,7 @@
 
 ![YUJI TOOLS Banner](https://img.shields.io/badge/YUJI--TOOLS-Multi--Feature--Downloader-blue?style=for-the-badge&logo=node.js)
 ![Version](https://img.shields.io/badge/Version-25.0-green?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
+[![License](https://img.shields.io/badge/License-Custom-yellow?style=for-the-badge)](https://github.com/yuji-rayn/yujitools/blob/ec00cc8ddb8850c6c09880f90e8d461cda3c183d/LICENSE)
 
 **YUJI TOOLS** adalah kumpulan fitur all-in-one berbasis Node.js untuk kebutuhan harian seperti download media, cek informasi, hingga utilitas AI.  
 Didesain **simple, interaktif, dan powerful**.  
@@ -31,7 +31,7 @@ Didesain **simple, interaktif, dan powerful**.
 | `16` | **GCam Support** | Cek dukungan GCam untuk HP kamu. |
 | `17` | **AI Music Generator** | Buat lagu otomatis dengan AI. |
 | `18` | **Multi-Platform Downloader** | Download media dari Facebook, Twitter/X, TikTok, Pinterest, dll. |
-| `19` | **Skip URL** | Untuk me-skip URL seperti tutwuri ataupun sebagainya, memudahkan pengguna mendapatkan URL asli tanpa terjebak phising melalui iklan yang terdapat didalamnya
+| `19` | **Skip URL** | Skip URL shortener agar langsung ke link asli tanpa phising. |
 | `0` | **Keluar** | Menutup program. |
 
 ---
@@ -46,9 +46,8 @@ cd yuji-tools
 # Install dependencies
 npm install
 
-# Jika Gagal
+# Jika gagal
 npm install --force
-npm start
 
 # Jalankan
 npm start
