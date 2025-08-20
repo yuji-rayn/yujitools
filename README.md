@@ -39,6 +39,15 @@ Didesain **simple, interaktif, dan powerful**.
 ## 📦 Instalasi
 
 ```bash
+# Install Requirements
+pkg install proot-distro -y
+proot-distro install ubuntu
+proot-distro login ubuntu
+pkg update && pkg upgrade -y
+pkg install nodejs-lts -y
+pkg install ffmpeg -y
+pkg install git -y
+
 # Clone repository
 git clone https://github.com/yuji-rayn/yuji-tools.git
 cd yuji-tools
